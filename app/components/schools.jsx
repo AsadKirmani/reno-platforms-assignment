@@ -1,7 +1,10 @@
 'use client'
 import Link from "next/link";
+import { useEffect } from "react";
 
 export default function Schools({ schools }) {
+  useEffect(() => {
+  }, [schools]);
   return (
     <div className="min-h-screen font-sans">
       <header>
